@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Test Solver",
+    "description": "Solving all your tests and quizzes in real time",
+    "version": "1.0",
+    "icons": {
+      "16": "images/ai.png",
+      "32": "images/ai.png",
+      "48": "images/ai.png",
+      "128": "images/ai.png"
+    },
+    "content_scripts": [
+      {
+        "js": [
+          "scripts/content.js"
+        ],
+        "matches": [ "<all_urls>" ]
+      }
+    ]
+  }
